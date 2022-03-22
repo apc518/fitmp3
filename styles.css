@@ -1,0 +1,45 @@
+body{
+    background: #1d1d22;
+    color: #ccc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+#sizeslider{
+    width: 300px;
+}
+
+#sizedisplay{
+    font-size: 2rem;
+}
+
+a{
+    color:aquamarine
+}
+
+a:hover{
+    color:white
+}
+
+.savebtn{
+    font-size: 2rem;
+    color:cyan;
+}
+
+.savebtn:hover{
+    color:white;
+}
+
+footer{
+    margin-top: auto;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}

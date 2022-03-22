@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Fit mp3</title>
+        <script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js"></script>
+        <script src="index.js" defer></script>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div id="main">
+            <h1>Fit mp3</h1>
+            <h2>Compress an audio file to a specific size! Great for Discord 🚀</h2>
+            <input id="sizeslider" type="range" value="8" min="2" max="100" step="2"/><br/><br/>
+            <span id="sizedisplay">8mb</span><br/><br/>
+            <input id="fileinput" type="file" aria-label="file input button" /><br/><br/>
+            <span id="loadingindicator" hidden>Compressing...</span>
+        </div>
+
+        <footer>
+            Site by <a target="_blank" rel="noreferrer" href="https://chambercode.com/">Andy Chamberlain</a><br/>
+            Encoding done with <a target="_blank" rel="noreferrer" href="https://github.com/zhuker/lamejs">lamejs</a>, based on <a target="_blank" rel="noreferrer" href="http://lame.sourceforge.net">LAME</a>
+        </footer>
+    </body>
+</html>
